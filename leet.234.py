@@ -4,7 +4,6 @@ class ListNode:
         self.next = next
 
 def build_list(arr):
-    """数组 -> 链表"""
     dummy = ListNode()
     cur = dummy
     for num in arr:
@@ -13,7 +12,6 @@ def build_list(arr):
     return dummy.next
 
 def print_list(head):
-    """打印链表"""
     res = []
     cur = head
     while cur:
